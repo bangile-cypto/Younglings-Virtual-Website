@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    margin: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+    width: 180px;
+    padding: 12px;
+    background: #fff;
+    outline: none;
+    
+}
+
+nav ul li a:hover{
+    transform: translateY(4px);
+    background: transparent;
+    border: #fff solid 1px;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+
+
+.navbar{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: transparent;
+    transition: 0.5s;
+    background-color: #228b22;
+    border: #fff solid 2px;
+    margin-left: 2em;
+    margin-right: 2em;
+    position: static;
+
+}
+
+.logo{
+    text-decoration: none;
+    color:#000;
+    font-size: 2em;
+    padding: 12px;
+    color: #fff;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.content .intro{
+    padding-bottom: 25px;
+    padding-left: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+
+.content h1{
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    font-size: 80px;
+    margin-top: 12%;
+    letter-spacing: 1.2px;
+}
+
+.flex{
+    display: flex;
+}
+
+button{
+    
+}
