@@ -63,13 +63,13 @@ nav ul li a:hover{
 
 
 .about-div{
-    width: 350px;
+    width: 450px;
     height: auto;
-    margin: 5%;
+    margin-left: 14%;
 }
 
 .about-pic{
-    border: #eee solid 7px;
+    border: #eee solid 10px;
     margin-bottom: 20px;
 }
 
@@ -89,6 +89,16 @@ h1{
 
 .flex{
     display: flex;
+}
+
+
+button{
+    width: 250px;
+    height: 60px;
+    font-size: larger;
+    font-family: Arial;
+    margin: 2em;
+    
 }
 
 
