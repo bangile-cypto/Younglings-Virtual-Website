@@ -82,7 +82,7 @@ h1{
 .candidate-Img{
     width: 190px;
     height: 170px;
-    border-radius: 4px;
+    border-radius: 1px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
@@ -96,3 +96,10 @@ h1{
     color: #228b22;
 
 }
+
+video{
+    width: 540px;
+    height: 450px;
+}
+
+
